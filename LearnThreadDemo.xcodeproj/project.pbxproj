@@ -15,6 +15,9 @@
 		A9155D7020F9E85D00B2AE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9155D6E20F9E85D00B2AE1B /* LaunchScreen.storyboard */; };
 		A9155D7B20F9E85D00B2AE1B /* LearnThreadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9155D7A20F9E85D00B2AE1B /* LearnThreadDemoTests.m */; };
 		A9155D8620F9E85D00B2AE1B /* LearnThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9155D8520F9E85D00B2AE1B /* LearnThreadDemoUITests.m */; };
+		A9155D9520F9EF3700B2AE1B /* TickManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9155D9420F9EF3700B2AE1B /* TickManager.m */; };
+		A9155D9820F9FACE00B2AE1B /* TestSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = A9155D9720F9FACE00B2AE1B /* TestSingle.m */; };
+		A9155D9B20FA050A00B2AE1B /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9155D9A20FA050A00B2AE1B /* CustomOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A9155D8120F9E85D00B2AE1B /* LearnThreadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnThreadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9155D8520F9E85D00B2AE1B /* LearnThreadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnThreadDemoUITests.m; sourceTree = "<group>"; };
 		A9155D8720F9E85D00B2AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9155D9320F9EF3700B2AE1B /* TickManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickManager.h; sourceTree = "<group>"; };
+		A9155D9420F9EF3700B2AE1B /* TickManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickManager.m; sourceTree = "<group>"; };
+		A9155D9620F9FACE00B2AE1B /* TestSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSingle.h; sourceTree = "<group>"; };
+		A9155D9720F9FACE00B2AE1B /* TestSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSingle.m; sourceTree = "<group>"; };
+		A9155D9920FA050A00B2AE1B /* CustomOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
+		A9155D9A20FA050A00B2AE1B /* CustomOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +114,17 @@
 				A9155D6420F9E85D00B2AE1B /* AppDelegate.m */,
 				A9155D6620F9E85D00B2AE1B /* ViewController.h */,
 				A9155D6720F9E85D00B2AE1B /* ViewController.m */,
+				A9155D9320F9EF3700B2AE1B /* TickManager.h */,
+				A9155D9420F9EF3700B2AE1B /* TickManager.m */,
 				A9155D6920F9E85D00B2AE1B /* Main.storyboard */,
 				A9155D6C20F9E85D00B2AE1B /* Assets.xcassets */,
 				A9155D6E20F9E85D00B2AE1B /* LaunchScreen.storyboard */,
 				A9155D7120F9E85D00B2AE1B /* Info.plist */,
 				A9155D6020F9E85D00B2AE1B /* Supporting Files */,
+				A9155D9620F9FACE00B2AE1B /* TestSingle.h */,
+				A9155D9720F9FACE00B2AE1B /* TestSingle.m */,
+				A9155D9920FA050A00B2AE1B /* CustomOperation.h */,
+				A9155D9A20FA050A00B2AE1B /* CustomOperation.m */,
 			);
 			path = LearnThreadDemo;
 			sourceTree = "<group>";
@@ -273,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9155D9820F9FACE00B2AE1B /* TestSingle.m in Sources */,
 				A9155D6820F9E85D00B2AE1B /* ViewController.m in Sources */,
+				A9155D9B20FA050A00B2AE1B /* CustomOperation.m in Sources */,
 				A9155D6520F9E85D00B2AE1B /* AppDelegate.m in Sources */,
+				A9155D9520F9EF3700B2AE1B /* TickManager.m in Sources */,
 				A9155D6220F9E85D00B2AE1B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
